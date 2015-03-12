@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+<head>
+	<meta charset="utf-8">
+	<title>ИриДиС</title>
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<link href="css/styles.css" rel="stylesheet">
+	<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,400italic&subset=latin,cyrillic" rel="stylesheet">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script src="http://malsup.github.io/jquery.cycle2.js"></script>
+	<script src="js/device.min.js"></script>
+	<script src="js/js.js"></script>
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+<body>
+
+<div class="all">
+
+<!-- header -->
+<header class="header clearfix">
+	<div class="header_top clearfix">
+		<div class="block_header_login">
+			<a href="javascript:void(0)" class="ico_login"><span class="dotted">Войти на сайт</span></a>
+			<a href="javascript:void(0)" class="ico_registration"><span class="dotted">Зарегестрироваться</span></a>
+		</div>
+		<div class="block_search clearfix"><input type="text" placeholder="Поиск"><a href="javascript:void(0)" class="button_search"><span></span></a></div>
+	</div>
+	<a href="index.html" class="logo"><span>IriDiS</span> <i>медицинская клиника</i></a>
+	<address class="block_header_address">
+		<strong>+38(0542) 00 00 00</strong><br>
+		Сумы, ул. Стахановцев, д. 69, кор. 7<br>
+		<a href="javascript:void(0)" class="dotted">Схема проезда</a>
+	</address>
+	<div class="block_slogan flexible">Профессиональные и опытные врачи,<br> реально заинтересованные в лечении своих пациентов</div>
+	<nav class="menu hover">
+		<span class="menu_show"></span>
+		<ul class="ul">
+			<li><div class="div"><a href="javascript:void(0)">Главная</a></div></li>
+			<li>
+				<div class="div more">
+					<a href="javascript:void(0)">О клинике</a>
+					<ul class="menu_sub">
+						<li><a href="javascript:void(0)">О клинике</a></li>
+						<li><a href="javascript:void(0)">Новости</a></li>
+						<li><a href="javascript:void(0)">Объявления</a></li>
+						<li><a href="javascript:void(0)">Лицензии</a></li>
+						<li><a href="javascript:void(0)">Отзывы</a></li>
+						<li><a href="javascript:void(0)">Фотогалерея</a></li>
+					</ul>
+				</div>
+			</li>
+			<li>
+				<div class="div more">
+					<a href="javascript:void(0)" class="active">Специалисты</a>
+					<ul class="menu_sub">
+						<li><a href="javascript:void(0)">Специалисты клиники</a></li>
+						<li><a href="javascript:void(0)">Расписание</a></li>
+					</ul>
+				</div>
+			</li>
+			<li>
+				<div class="div more">
+					<a href="javascript:void(0)">Услуги</a>
+					<ul class="menu_sub">
+						<li><a href="javascript:void(0)">Наши направления</a></li>
+						<li><a href="javascript:void(0)">Список услуг</a></li>
+					</ul>
+				</div>
+			</li>
+			<li>
+				<div class="div more">
+					<a href="javascript:void(0)">Для пациента</a>
+					<ul class="menu_sub">
+						<li><a href="javascript:void(0)">Данные пациента</a></li>
+						<li><a href="javascript:void(0)">Запись на прием</a></li>
+						<li><a href="javascript:void(0)">Создать обращение</a></li>
+						<li><a href="javascript:void(0)">Вопрос-Ответ</a></li>
+						<li><a href="javascript:void(0)">Мои обращения</a></li>
+					</ul>
+				</div>
+			</li>
+			<li class="hide"><div class="div"><a href="javascript:void(0)">Блоги</a></div></li>
+			<li class="hide">
+				<div class="div more">
+					<a href="javascript:void(0)">Статьи</a>
+					<ul class="menu_sub">
+						<li><a href="javascript:void(0)">Хирургия</a></li>
+						<li><a href="javascript:void(0)">Гинекология</a></li>
+						<li><a href="javascript:void(0)">Офтальмология</a></li>
+						<li><a href="javascript:void(0)">Урология</a></li>
+					</ul>
+				</div>
+			</li>
+			<li class="hide"><div class="div"><a href="javascript:void(0)">Контакты</a></div></li>
+			<li class="hide"><div class="div"><a href="javascript:void(0)">Для сотрудников</a></div></li>
+		</ul>
+		<span class="menu_more"><i>Еще</i></span>
+		<ul class="ul_more">
+			<li><a href="javascript:void(0)">Блоги</a></li>
+			<li class="more">
+				<a href="javascript:void(0)">Статьи</a>
+				<ul class="ul_more_sub">
+					<li><a href="javascript:void(0)">Хирургия</a></li>
+					<li><a href="javascript:void(0)">Гинекология</a></li>
+					<li><a href="javascript:void(0)">Офтальмология</a></li>
+					<li><a href="javascript:void(0)">Урология</a></li>
+				</ul>
+			</li>
+			<li><a href="javascript:void(0)">Контакты</a></li>
+			<li><a href="javascript:void(0)">Для сотрудников</a></li>
+		</ul>
+	</nav>
+</header>
+<!-- // header -->
+
+<!-- content -->
+<main class="content clearfix">
+	<div class="content_left">
+		<nav class="menu_left">
+			<ul>
+				<li><a href="javascript:void(0)" class="a">О клинике</a></li>
+				<li><a href="javascript:void(0)" class="a">Новости</a></li>
+				<li>
+					<a href="javascript:void(0)" class="a">Обьявления</a>
+					<a href="javascript:void(0)" class="more"></a>
+					<ul class="menu_left_sub">
+						<li><a href="javascript:void(0)" class="a">Лицензия</a></li>
+						<li><a href="javascript:void(0)" class="a active">Отзывы</a></li>
+						<li><a href="javascript:void(0)" class="a">Новости</a></li>
+					</ul>
+				</li>
+				<li><a href="javascript:void(0)" class="a">Лицензия</a></li>
+				<li><a href="javascript:void(0)" class="a">Отзывы</a></li>
+			</ul>
+		</nav>
+	</div>
+	<section class="content_right">
+		<div class="bread_crumbs"><a href="javascript:void(0)">Главная</a> <a href="javascript:void(0)">О клинике</a> Подпункт</div>
+		<h1>О нашей клинике</h1>
+		<div class="txt clearfix">
+			Наша поликлиника является крупным многопрофильным лечебно-профилактическим учреждением системы Кремлевской медицины, оснащенным новейшим лечебно-диагностическим оборудованием.<br><br>
+			Штат сотрудников состоит из высококвалифицированного медицинского персонала. Прием и лечение пациентов осуществляется врачами более чем 35 специальностей ежедневно с 8:00 до 20:00, в субботние дни - с 8:00 до 14:00, обслуживание на дому - с 9:00 до 17:00. Скорая медицинская помощь с бригадой реанимации работает круглосуточно.<br><br>
+			Главными задачами учреждения являются сохранение высокого уровня оказания медицинской помощи, совершенствование методов организации работы, приобретение новейшей аппаратуры, внедрение инновационных методов диагностики и лечения, развитие материально-технической базы, создание условий для комфорта и удобства при посещении поликлиники.<br><br>
+			<strong>Виды медицинского обслуживания:</strong><br><br>
+			<ul class="ul">
+				<li>Добровольное медицинское страхование через ведущие страховые компании.</li>
+				<li>Обслуживание за наличный расчет и по кредитным картам через кабинет платных медицинских услуг.</li>
+				<li>Обслуживание в соответствии с программами по лечению конкретных заболеваний.</li>
+				<li>История поликлиники начинается с 1981 года, когда в новом здании на Грохольском переулке</li>
+			</ul>
+			Лечебные учреждения системы Кремлевской медицины всегда отвечали самым высоким требованиям. Правительственные поликлиники комплектовались лучшими кадрами, самым современным оборудованием, привлекали к работе консультантов из числа ведущих ученых-медиков. В коллективе сотрудников создавались и совершенствовались традиции чуткого отношения к пациентам и добросовестного выполнения врачебного долга. С 1994 года поликлиника входила в состав Медицинского центра Управления<br><br>
+			<img class="fl_left" src="images/img_1.jpg" alt="">
+			Наша поликлиника является крупным многопрофильным лечебно-профилактическим учреждением системы Кремлевской медицины, оснащенным новейшим лечебно-диагностическим оборудованием.<br><br>
+			Штат сотрудников состоит из высококвалифицированного медицинского персонала. Прием и лечение пациентов осуществляется врачами более чем 35 специальностей ежедневно с 8:00 до 20:00, в субботние дни - с 8:00 до 14:00, обслуживание на дому - с 9:00 до 17:00. Скорая медицинская помощь с бригадой реанимации работает
+		</div>
+		<div class="block_timetable big">
+			<table class="table_timetable">
+				<tr>
+					<th>Специалист</th>
+					<th>Понедельник</th>
+					<th>Вторник</th>
+					<th>Среда</th>
+					<th>Четрверг</th>
+					<th>Пятница</th>
+					<th>Суббота</th>
+					<th>Воскресенье</th>
+				</tr>
+				<tr>
+					<td colspan="8"><div class="title">Хирургическое отделение</div></td>
+				</tr>
+				<tr>
+					<td><strong>Иванов Игорь</strong> <span>Хирург</span></td>
+					<td>8:00-15:00</td>
+					<td>12:00-17:00</td>
+					<td class="none">нет приема</td>
+					<td>8:00-15:00</td>
+					<td>12:00-17:00</td>
+					<td>12:00-17:00</td>
+					<td class="none">нет приема</td>
+				</tr>
+				<tr>
+					<td><strong>Иванов Игорь</strong> <span>Хирург</span></td>
+					<td class="none">нет приема</td>
+					<td>8:00-15:00</td>
+					<td>12:00-17:00</td>
+					<td>8:00-15:00</td>
+					<td class="none">нет приема</td>
+					<td>12:00-17:00</td>
+					<td>12:00-17:00</td>
+				</tr>
+				<tr>
+					<td><strong>Иванов Игорь</strong> <span>Главный врач</span></td>
+					<td>8:00-15:00</td>
+					<td class="none">нет приема</td>
+					<td>12:00-17:00</td>
+					<td>8:00-15:00</td>
+					<td>12:00-17:00</td>
+					<td class="none">нет приема</td>
+					<td>12:00-17:00</td>
+				</tr>
+				<tr>
+					<td colspan="8"><div class="title">Терапевтическое отделение</div></td>
+				</tr>
+				<tr>
+					<td><strong>Иванов Игорь</strong> <span>Хирург</span></td>
+					<td>8:00-15:00</td>
+					<td>12:00-17:00</td>
+					<td class="none">нет приема</td>
+					<td>8:00-15:00</td>
+					<td>12:00-17:00</td>
+					<td>12:00-17:00</td>
+					<td class="none">нет приема</td>
+				</tr>
+				<tr>
+					<td><strong>Иванов Игорь</strong> <span>Хирург</span></td>
+					<td class="none">нет приема</td>
+					<td>8:00-15:00</td>
+					<td>12:00-17:00</td>
+					<td>8:00-15:00</td>
+					<td class="none">нет приема</td>
+					<td>12:00-17:00</td>
+					<td>12:00-17:00</td>
+				</tr>
+				<tr>
+					<td><strong>Иванов Игорь</strong> <span>Главный врач</span></td>
+					<td>8:00-15:00</td>
+					<td class="none">нет приема</td>
+					<td>12:00-17:00</td>
+					<td>8:00-15:00</td>
+					<td>12:00-17:00</td>
+					<td class="none">нет приема</td>
+					<td>12:00-17:00</td>
+				</tr>
+			</table>
+		</div>
+		<div class="tabs_all">
+			<ul class="tabs clearfix">
+				<li><a href="javascript:void(0)" id="tab_1_1" class="cur">Хирургическое отделение</a></li>
+				<li><a href="javascript:void(0)" id="tab_1_2">Неврологическое отделение</a></li>
+				<li><a href="javascript:void(0)" id="tab_1_3">Хирургическое отделение</a></li>
+			</ul>
+			<div class="tab_content_1 tab_1_1_content">
+				<div class="block_timetable">
+					<table class="table_timetable">
+						<tr>
+							<th>Специалист</th>
+							<th>Понедельник</th>
+							<th>Вторник</th>
+							<th>Среда</th>
+							<th>Четрверг</th>
+							<th>Пятница</th>
+							<th>Суббота</th>
+							<th>Воскресенье</th>
+						</tr>
+						<tr>
+							<td><strong>Иванов Игорь</strong> <span>Хирург</span></td>
+							<td>8:00-15:00</td>
+							<td>12:00-17:00</td>
+							<td class="none">нет приема</td>
+							<td>8:00-15:00</td>
+							<td>12:00-17:00</td>
+							<td>12:00-17:00</td>
+							<td class="none">нет приема</td>
+						</tr>
+						<tr>
+							<td><strong>Иванов Игорь</strong> <span>Хирург</span></td>
+							<td class="none">нет приема</td>
+							<td>8:00-15:00</td>
+							<td>12:00-17:00</td>
+							<td>8:00-15:00</td>
+							<td class="none">нет приема</td>
+							<td>12:00-17:00</td>
+							<td>12:00-17:00</td>
+						</tr>
+						<tr>
+							<td><strong>Иванов Игорь</strong> <span>Главный врач</span></td>
+							<td>8:00-15:00</td>
+							<td class="none">нет приема</td>
+							<td>12:00-17:00</td>
+							<td>8:00-15:00</td>
+							<td>12:00-17:00</td>
+							<td class="none">нет приема</td>
+							<td>12:00-17:00</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<div class="tab_content_1 tab_1_2_content" style="display:none;">
+				<div class="block_timetable">
+					<table class="table_timetable">
+						<tr>
+							<th>Специалист</th>
+							<th>Понедельник</th>
+							<th>Вторник</th>
+							<th>Среда</th>
+							<th>Четрверг</th>
+							<th>Пятница</th>
+							<th>Суббота</th>
+							<th>Воскресенье</th>
+						</tr>
+						<tr>
+							<td><strong>Иванов Игорь</strong> <span>Хирург</span></td>
+							<td>8:00-15:00</td>
+							<td>12:00-17:00</td>
+							<td class="none">нет приема</td>
+							<td>8:00-15:00</td>
+							<td>12:00-17:00</td>
+							<td>12:00-17:00</td>
+							<td class="none">нет приема</td>
+						</tr>
+						<tr>
+							<td><strong>Иванов Игорь</strong> <span>Хирург</span></td>
+							<td class="none">нет приема</td>
+							<td>8:00-15:00</td>
+							<td>12:00-17:00</td>
+							<td>8:00-15:00</td>
+							<td class="none">нет приема</td>
+							<td>12:00-17:00</td>
+							<td>12:00-17:00</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<div class="tab_content_1 tab_1_3_content" style="display:none;">
+				<div class="block_timetable">
+					<table class="table_timetable">
+						<tr>
+							<th>Специалист</th>
+							<th>Понедельник</th>
+							<th>Вторник</th>
+							<th>Среда</th>
+							<th>Четрверг</th>
+							<th>Пятница</th>
+							<th>Суббота</th>
+							<th>Воскресенье</th>
+						</tr>
+						<tr>
+							<td><strong>Иванов Игорь</strong> <span>Хирург</span></td>
+							<td>8:00-15:00</td>
+							<td>12:00-17:00</td>
+							<td class="none">нет приема</td>
+							<td>8:00-15:00</td>
+							<td>12:00-17:00</td>
+							<td>12:00-17:00</td>
+							<td class="none">нет приема</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+		<div class="block_table_info">Что бы посмотреть таблицу прокрутите вправо</div>
+	</section>
+</main>
+<!-- // content -->
+
+</div>
+
+<!-- footer -->
+<footer class="footer">
+	<div class="footer_center clearfix">
+		<nav class="footer_menu clearfix">
+			<div class="col">
+				<a href="javascript:void(0)" class="title">О клинике</a>
+				<ul>
+					<li><a href="javascript:void(0)">Новости</a></li>
+					<li><a href="javascript:void(0)">Объявления</a></li>
+				</ul>
+			</div>
+			<div class="col">
+				<a href="javascript:void(0)" class="title">Специалисты</a>
+				<ul>
+					<li><a href="javascript:void(0)">Специалисты</a></li>
+					<li><a href="javascript:void(0)">Расписание</a></li>
+				</ul>
+			</div>
+			<div class="col">
+				<a href="javascript:void(0)" class="title">Услуги</a>
+				<ul>
+					<li><a href="javascript:void(0)">Направления</a></li>
+					<li><a href="javascript:void(0)">Список услуг</a></li>
+				</ul>
+			</div>
+			<div class="col">
+				<a href="javascript:void(0)" class="title">Для пациента</a>
+				<ul>
+					<li><a href="javascript:void(0)">Запись на прием</a></li>
+					<li><a href="javascript:void(0)">Создать обращение</a></li>
+					<li><a href="javascript:void(0)">Вопрос-ответ</a></li>
+				</ul>
+			</div>
+		</nav>
+		<address class="block_footer_address">
+			<strong>+38(0542) 00 00 00</strong><br>
+			Сумы, ул. Стахановцев, д. 69, кор. 7<br>
+			<a href="javascript:void(0)" class="dotted">Схема проезда</a>
+		</address>
+		<div class="footer_bottom">
+			<div class="block_copy clearfix">
+				<span>© 2015, ИриДиС. Все права защищены</span>
+				<div class="counter"><img src="images/counter.png" width="81" height="28" alt=""></div>
+			</div>
+			<div class="block_by"><a href="http://www.magic-a.ru/" target="_blank"><span>Разработка сайта</span> - <strong>Magic-A</strong></a></div>
+		</div>
+	</div>
+</footer>
+<!-- // footer -->
+
+</body>
+</html>
